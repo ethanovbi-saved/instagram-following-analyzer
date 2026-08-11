@@ -1,0 +1,10 @@
+# Private Instagram data
+data/export_0/
+data/export_1/
+data/keep_following.txt
+
+# Generated output
+output/review_list.txt
+
+# macOS system files
+.DS_Store
