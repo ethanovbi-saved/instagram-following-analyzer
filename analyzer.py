@@ -168,7 +168,7 @@ review_file = project_folder / "output" / "review_list.txt"
 verify_file(old_followers_file, "export_0 followers_1.json")
 verify_file(old_following_file, "export_0 following.json")
 verify_file(new_followers_file, "export_1 followers_1.json")
-verify_file(old_followers_file, "export_0 following.json")
+verify_file(new_following_file, "export_1 following.json")
 verify_file(keep_file, "keep_following.txt")
 
 # Load Instagram data
