@@ -219,7 +219,7 @@ print()
 print(f"Reviewed: {len(sorted_usernames)} accounts")
 print(f"Added to keep list: {added_to_keep}")
 print(f"Skipped this run: {skip_counter}")
-print(f"Left for future review: {len(review_list)}")
+print(f"Left for future review: {len(review_list) - added_to_keep}")
 print(f"Removed from keep list: {remove_from_keep}")
 
 print(f"Results saved to: {review_file}")
